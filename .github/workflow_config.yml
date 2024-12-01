@@ -16,14 +16,11 @@
 
 buildtest:
   - armbian/bananapim2zero
-  - orangepi/orangepi_zero3_1500mb
-  - orangepi/orangepi_zero3_others
-
+  - orangepi/orangepi_zero3
 
 # This is used to setup release build chain.
 # Each entry will be used in setup matrix for releases
 
 release:
   - armbian/bananapim2zero
-  - orangepi/orangepi_zero3_1500mb
-  - orangepi/orangepi_zero3_others
+  - orangepi/orangepi_zero3

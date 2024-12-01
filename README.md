@@ -8,7 +8,7 @@
 # Todo & Features
 - [x] Support for Orange Pi Zero3
 - [x] Support for Banana Pi BPI-M2 ZERO
-- [ ] Cleanup build Pipeline
+- [x] Cleanup build Pipeline
 - [ ] Use my own Klipper fork for build
 - [ ] Integrate my own TMC AutoTune fork
 - [ ] Integrate klippain shaketune
