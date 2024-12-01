@@ -5,6 +5,16 @@
 <img src=".github/sdcard-logo.png" style="width:40%" >
 </p>
 
+# Todo & Features
+- [x] Support for Orange Pi Zero3
+- [x] Support for Banana Pi BPI-M2 ZERO
+- [ ] Cleanup build Pipeline
+- [ ] Use my own Klipper fork for build
+- [ ] Integrate my own TMC AutoTune fork
+- [ ] Integrate klippain shaketune
+- [ ] create module for T250 config installation
+- [ ] create own theme
+
 # MainsailOS
 
 A [Raspberry Pi OS](https://www.raspberrypi.org/software/) based distribution for 3D Printers. \
