@@ -10,7 +10,7 @@
 - [x] Support for Banana Pi BPI-M2 ZERO
 - [x] Cleanup build Pipeline
 - [x] Use my own Klipper fork for build
-- [ ] Integrate my own TMC AutoTune fork
+- [x] Integrate my own TMC AutoTune fork
 - [x] Integrate klippain shaketune
 - [ ] create module for T250 config installation
 - [ ] create own theme
