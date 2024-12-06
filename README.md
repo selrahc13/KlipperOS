@@ -13,6 +13,7 @@
 - [x] Integrate my own TMC AutoTune fork
 - [x] Integrate klippain shaketune
 - [x] Make Klipper accessable through t250.local / t100.local
+- [ ] Integrate BDSensor
 - [ ] create module for T250 config installation
 - [ ] create own theme
 
