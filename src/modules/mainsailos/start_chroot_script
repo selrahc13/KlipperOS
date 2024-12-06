@@ -22,6 +22,8 @@ fi
 source /common.sh
 install_cleanup_trap
 
+unpack /filesystem/root /
+
 ## Step 1: Create mainsailos release file
 if [ -f "/etc/mainsailos_version" ]; then
     sudo rm -f /etc/mainsailos_version
