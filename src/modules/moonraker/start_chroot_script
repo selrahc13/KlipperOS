@@ -84,7 +84,13 @@ popd &> /dev/null || exit 1
 echo_green "Copying MainsailOS premade moonraker.conf ..."
 unpack /filesystem/home/"${BASE_USER}" /home/"${BASE_USER}" "${BASE_USER}"
 
-## Step 14:
+## Step 14: Change Mainsail Klipper origin to MSzturc/Klipper
+CONFIG_FILE="/home/${BASE_USER}/moonraker/moonraker/components/update_manager/common.py"
+OLD_ORIGIN="https://github.com/Klipper3d/klipper.git"
+NEW_ORIGIN="https://github.com/MSzturc/klipper.git"
+sed -i "s|${OLD_ORIGIN}|${NEW_ORIGIN}|g" "${CONFIG_FILE}"
+
+## Step 15:
 echo_green "Enable moonraker.service ..."
 systemctl_if_exists enable moonraker.service
 

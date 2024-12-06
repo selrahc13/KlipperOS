@@ -13,13 +13,13 @@
 - [x] Integrate my own TMC AutoTune fork
 - [x] Integrate klippain shaketune
 - [x] Make Klipper accessable through t250.local / t100.local
-- [ ] Integrate BDSensor
+- [x] Integrate BDSensor
 - [ ] create module for T250 config installation
 - [ ] create own theme
 
 
 # Bugs
-- [ ] Unofficial remote url: https://github.com/MSzturc/klipper.git
+- [x] Unofficial remote url: https://github.com/MSzturc/klipper.git
 - [ ] Repo has untracked source files: ['klippy/extras/autotune_tmc.py', 'klippy/extras/motor_constants.py']
 - [ ] Moonraker: Repo has untracked source files: ['moonraker/components/timelapse.py']
 
