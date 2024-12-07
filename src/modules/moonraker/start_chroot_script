@@ -78,10 +78,11 @@ NEW_ORIGIN="https://github.com/MSzturc/klipper.git"
 sed -i "s|${OLD_ORIGIN}|${NEW_ORIGIN}|g" "${CONFIG_FILE}"
 
 ## Step 11: Get rid of moonraker dirty message
-git update-index --assume-unchanged moonraker/components/update_manager/common.py
+sudo -u "${BASE_USER}" git update-index --assume-unchanged moonraker/components/update_manager/common.py
 
 ## Step 12: Get rid of untracked timelapse message
-echo "moonraker/components/timelapse.py" >> ".git/info/exclude"
+#sudo -u "${BASE_USER}" echo "moonraker/components/timelapse.py" >> ".git/info/exclude"
+echo "moonraker/components/timelapse.py" | sudo -u "${BASE_USER}" tee -a ".git/info/exclude" > /dev/null
 
 ## Step 12: Leave moonraker
 popd &> /dev/null || exit 1
