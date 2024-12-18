@@ -84,7 +84,7 @@ Here’s a list of preinstalled and integrated software:
 - [x] Make Klipper accessable through t250.local / t100.local
 - [x] Integrate BDSensor
 - [x] Update Landing Page
-- [ ] create module for T250 config installation
+- [x] create module for T250 config installation
 - [ ] create own theme
 
 ## Bugs
