@@ -7,7 +7,6 @@ DOWNLOAD_URL_CHECKSUM="${DOWNLOAD_BASE_URL}/armbian-bananapi_m2_zero_bookworm.im
 DOWNLOAD_URL_IMAGE="${DOWNLOAD_BASE_URL}/armbian-bananapi_m2_zero_bookworm.img.xz"
 
 # export Variables
-export BASE_ARCH
 export DOWNLOAD_URL_CHECKSUM
 export DOWNLOAD_URL_IMAGE
 
@@ -16,4 +15,4 @@ export DOWNLOAD_URL_IMAGE
 # shellcheck disable=SC2034
 JSON_PRETTY_SBC_NAME="Banana Pi M2 Zero"
 # shellcheck disable=SC2034
-JSON_SUPPORTED_SBC="bananapim2zero-64bit"
+JSON_SUPPORTED_SBC="bananapim2zero-32bit"
