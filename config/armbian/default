@@ -5,7 +5,8 @@
 # See https://www.shellcheck.net/wiki/SC2155
 
 # Download Base Url
-DOWNLOAD_BASE_URL="https://github.com/mainsail-crew/armbian-builds/releases/latest/download"
+DOWNLOAD_BASE_URL="https://github.com/ShohninDmitriy/armbian-builds/releases/latest/download"
+
 
 # Base User
 BASE_ADD_USER="yes"
@@ -18,7 +19,7 @@ BASE_IMAGE_RASPBIAN="no"
 
 # partition resizing
 BASE_ROOT_PARTITION="2"
-BASE_IMAGE_ENLARGEROOT=3500
+BASE_IMAGE_ENLARGEROOT=4500
 BASE_IMAGE_RESIZEROOT=600
 # Compress not needed due compression done in workflow
 BASE_RELEASE_COMPRESS=no
