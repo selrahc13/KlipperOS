@@ -33,10 +33,10 @@ pushd "/home/${BASE_USER}" &> /dev/null || exit 1
 
 ## Step 4: clone KLIPPER-MOTD repo
 echo_green "Clone KLIPPER-MOTD repository ..."
-gitclone KLIPPER-MOTD_REPO klipper-motd
+gitclone MOTD_REPO klipper-motd
 
 ## Step 5: Link install.sh in /usr/local/bin as klipper-motd-setup
-if [[ ${KLIPPER-MOTD_ADD_TO_PATH} = "1" ]]; then
+if [[ ${MOTD_ADD_TO_PATH} = "1" ]]; then
     echo_green "Add klipper-motd to PATH ..."
     sudo chmod +x "/home/${BASE_USER}/klipper-motd/setup.sh"
     sudo ln -s "/home/${BASE_USER}/klipper-motd/setup.sh" "/usr/local/bin/klipper-motd-setup"

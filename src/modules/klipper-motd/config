@@ -11,9 +11,9 @@
 
 # shellcheck disable=all
 
-# KLIPPER-MOTD repo
-[[ -n "$KLIPPER-MOTD_REPO_SHIP" ]] || KLIPPER-MOTD_REPO_SHIP="https://github.com/tomaski/klipper-motd.git"
-[[ -n "$KLIPPER-MOTD_REPO_BRANCH" ]] || KLIPPER-MOTD_REPO_BRANCH="main"
+# MOTD repo
+[[ -n "$MOTD_REPO_SHIP" ]] || MOTD_REPO_SHIP="https://github.com/tomaski/motd.git"
+[[ -n "$MOTD_REPO_BRANCH" ]] || MOTD_REPO_BRANCH="main"
 
 # Add to $PATH ? (1: yes, 0: no)
-[[ -n "$KLIPPER-MOTD_ADD_TO_PATH" ]] || KLIPPER-MOTD_ADD_TO_PATH="1"
+[[ -n "$MOTD_ADD_TO_PATH" ]] || MOTD_ADD_TO_PATH="1"
