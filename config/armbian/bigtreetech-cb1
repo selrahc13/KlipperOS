@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Shebang for better file detection
+# shellcheck enable=require-variable-braces
+
+BASE_ARCH="arm64"
+
+# Image source
+DOWNLOAD_URL_CHECKSUM="https://github.com/bigtreetech/CB1/releases/download/V3.0.0/CB1_Debian12_minimal_kernel6.6_20241219.img.sha256"
+DOWNLOAD_URL_IMAGE="https://github.com/bigtreetech/CB1/releases/download/V3.0.0/CB1_Debian12_minimal_kernel6.6_20241219.img.xz"
+
+# export Variables
+export BASE_ARCH
+export DOWNLOAD_URL_CHECKSUM
+export DOWNLOAD_URL_IMAGE
+
+### JSON sniplet Setup
+### NOTE: Please see all config files for setup variables!!!
+# shellcheck disable=SC2034
+JSON_PRETTY_SBC_NAME="BigTreeTech CB1"
+# shellcheck disable=SC2034
+JSON_SUPPORTED_SBC="bigtreetech-cb1-64bit"
