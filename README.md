@@ -67,11 +67,19 @@ Here’s a list of preinstalled and integrated software:
 - [Klipper](https://www.klipper3d.org/)
 - [Moonraker](https://moonraker.readthedocs.io/en/latest/)
 - [Mainsail](https://docs.mainsail.xyz/)
+- [Klippain](https://github.com/Frix-x/klippain/)
 - [Shake&Tune](https://github.com/Frix-x/klippain-shaketune/)
 - [Crowsnest](https://github.com/mainsail-crew/crowsnest/)
 - [Sonar](https://github.com/mainsail-crew/sonar/)
 - [Timelapse](https://github.com/mainsail-crew/moonraker-timelapse/)
 - [KlipperScreen](https://github.com/KlipperScreen/KlipperScreen/)
+- [KIAUH](https://github.com/dw-0/kiauh/)
+- [Klipper LED Effects](https://github.com/julianschill/klipper-led_effect/)
+- [Cartographer3D](https://github.com/Cartographer3D/cartographer-klipper/)
+- [Klipper MOTD](https://github.com/tomaski/klipper-motd/)
+- [Klipper TMC Autotune](https://github.com/andrewmcgr/klipper_tmc_autotune)
+- [BTT IO2CAN support](https://github.com/bigtreetech/IO2CAN/)
+- [Klipper Backup](https://github.com/Staubgeborener/Klipper-Backup)
 
 ## Todo & Features
 - [x] Support for Orange Pi Zero3
@@ -87,6 +95,6 @@ Here’s a list of preinstalled and integrated software:
 - [ ] create own theme
 
 ## Bugs
-- [x] Unofficial remote url: https://github.com/MSzturc/klipper.git
+- [x] Unofficial remote url: https://github.com/selrahc13/KlipperOS.git
 - [x] Repo has untracked source files: ['klippy/extras/autotune_tmc.py', 'klippy/extras/motor_constants.py']
 - [x] Moonraker: Repo has untracked source files: ['moonraker/components/timelapse.py']
