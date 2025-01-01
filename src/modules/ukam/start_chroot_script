@@ -20,7 +20,7 @@ source /common.sh
 install_cleanup_trap
 
 
-echo_green "Installing sonar ..."
+echo_green "Installing UKAM ..."
 
 ## Step 1: Force apt update
 apt-get update --allow-releaseinfo-change
@@ -40,6 +40,10 @@ if [[ ${UKAM_ADD_TO_PATH} = "1" ]]; then
     echo_green "Add ukam to PATH ..."
     sudo ln -s "/home/${BASE_USER}/ukam/ukam.sh" "/usr/local/bin/ukam"
 fi
+
+## Step 6: Link ukam moonraker config
+echo_green "Include ukam.conf in moonraker.conf ..."
+echo "[include /moonraker/ukam.conf]" >> /home/${BASE_USER}/printer_data/conf/moonraker.conf
 
 ## Finish
 echo_green "Installing UKAM ... DONE!"

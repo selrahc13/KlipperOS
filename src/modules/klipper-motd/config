@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#### KLIPPER-MOTD Install Module
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022 - till today
+#### https://github.com/mainsail-crew/MainsailOS
+####
+#### This File is distributed under GPLv3
+####
+
+
+# shellcheck disable=all
+
+# KLIPPER-MOTD repo
+[[ -n "$KLIPPER-MOTD_REPO_SHIP" ]] || KLIPPER-MOTD_REPO_SHIP="https://github.com/tomaski/klipper-motd.git"
+[[ -n "$KLIPPER-MOTD_REPO_BRANCH" ]] || KLIPPER-MOTD_REPO_BRANCH="main"
+
+# Add to $PATH ? (1: yes, 0: no)
+[[ -n "$KLIPPER-MOTD_ADD_TO_PATH" ]] || KLIPPER-MOTD_ADD_TO_PATH="1"

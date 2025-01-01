@@ -62,7 +62,7 @@ No additional steps are required. Proceed to the next section.
 ## What’s Included?
 
 Here’s a list of preinstalled and integrated software:
-- [Klipper](https://www.klipper3d.org/)
+- [Danger Klipper](https://github.com/KalicoCrew/kalico/)
 - [Moonraker](https://moonraker.readthedocs.io/en/latest/)
 - [Mainsail](https://docs.mainsail.xyz/)
 - [Klippain](https://github.com/Frix-x/klippain/)
@@ -82,6 +82,7 @@ Here’s a list of preinstalled and integrated software:
 - [UKAM](https://github.com/fbeauKmi/update_klipper_and_mcus/)
 
 ## Todo & Features
+- [X] Replace Klipper with Kalico (formerly Danger Klipper)
 - [X] Integrate KIAUH
 - [X] Integrate klippain
 - [X] Integrate klippain-shaketune

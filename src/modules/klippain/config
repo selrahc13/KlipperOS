@@ -13,7 +13,7 @@
 
 # KLIPPAIN repo
 [[ -n "$KLIPPAIN_REPO_SHIP" ]] || KLIPPAIN_REPO_SHIP="https://github.com/Frix-x/klippain.git"
-[[ -n "$KLIPPAIN_REPO_BRANCH" ]] || KLIPPAIN_REPO_BRANCH="master"
+[[ -n "$KLIPPAIN_REPO_BRANCH" ]] || KLIPPAIN_REPO_BRANCH="develop"
 
 # Add to $PATH ? (1: yes, 0: no)
 [[ -n "$KLIPPAIN_ADD_TO_PATH" ]] || KLIPPAIN_ADD_TO_PATH="1"
