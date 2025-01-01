@@ -15,9 +15,6 @@
 # Each entry will be used in setup matrix
 
 buildtest:
-  - armbian/orangepi3lts
-  - armbian/bigtreetech-cb1
-  - raspberry/rpi32
   - raspberry/rpi64
 
 # This is used to setup release build chain.
