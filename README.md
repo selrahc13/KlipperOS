@@ -79,6 +79,7 @@ Here’s a list of preinstalled and integrated software:
 - [BTT IO2CAN support](https://github.com/bigtreetech/IO2CAN/)
 - [Klipper Git Backup](https://github.com/Low-Frequency/Klipper-Git-Backup)
 - [Happy Hare](https://github.com/moggieuk/Happy-Hare/)
+- [UKAM](https://github.com/fbeauKmi/update_klipper_and_mcus/)
 
 ## Todo & Features
 - [X] Integrate KIAUH
