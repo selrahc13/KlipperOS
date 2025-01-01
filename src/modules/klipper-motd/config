@@ -12,7 +12,7 @@
 # shellcheck disable=all
 
 # MOTD repo
-[[ -n "$MOTD_REPO_SHIP" ]] || MOTD_REPO_SHIP="https://github.com/tomaski/motd.git"
+[[ -n "$MOTD_REPO_SHIP" ]] || MOTD_REPO_SHIP="https://github.com/tomaski/klipper-motd.git"
 [[ -n "$MOTD_REPO_BRANCH" ]] || MOTD_REPO_BRANCH="main"
 
 # Add to $PATH ? (1: yes, 0: no)
