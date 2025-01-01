@@ -81,9 +81,9 @@ Here’s a list of preinstalled and integrated software:
 - [Happy Hare](https://github.com/moggieuk/Happy-Hare/)
 
 ## Todo & Features
-- [ ] Integrate KIAUH
-- [ ] Integrate klippain
-- [ ] Integrate klippain-shaketune
+- [X] Integrate KIAUH
+- [X] Integrate klippain
+- [X] Integrate klippain-shaketune
 - [ ] Integrate TMC Driver tuning into Klipper
 - [ ] Integrate Klipper LED Effects
 - [ ] Integrate Cartographer3D

@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#### KLIPPAIN Install Module
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022 - till today
+#### https://github.com/mainsail-crew/MainsailOS
+####
+#### This File is distributed under GPLv3
+####
+
+
+# shellcheck disable=all
+
+# KLIPPAIN repo
+[[ -n "$KLIPPAIN_REPO_SHIP" ]] || KLIPPAIN_REPO_SHIP="https://github.com/Frix-x/klippain.git"
+[[ -n "$KLIPPAIN_REPO_BRANCH" ]] || KLIPPAIN_REPO_BRANCH="master"
+
+# Add to $PATH ? (1: yes, 0: no)
+[[ -n "$KLIPPAIN_ADD_TO_PATH" ]] || KLIPPAIN_ADD_TO_PATH="1"
