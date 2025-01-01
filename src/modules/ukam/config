@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#### UKAM Install Module
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022 - till today
+#### https://github.com/mainsail-crew/MainsailOS
+####
+#### This File is distributed under GPLv3
+####
+
+
+# shellcheck disable=all
+
+# UKAM repo
+[[ -n "$UKAM_REPO_SHIP" ]] || UKAM_REPO_SHIP="https://github.com/fbeauKmi/update_klipper_and_mcus.git"
+[[ -n "$UKAM_REPO_BRANCH" ]] || UKAM_REPO_BRANCH="main"
+
+# Add to $PATH ? (1: yes, 0: no)
+[[ -n "$UKAM_ADD_TO_PATH" ]] || UKAM_ADD_TO_PATH="1"
