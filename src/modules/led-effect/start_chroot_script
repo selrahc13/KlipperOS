@@ -38,13 +38,13 @@ gitclone KLIPPER_MOTD_REPO klipper_led_effect
 ## Step 5: Link install.sh in /usr/local/bin as klipper_led_effect-setup
 if [[ ${KLIPPER_MOTD_ADD_TO_PATH} = "1" ]]; then
     echo_green "Add klipper_led_effect to PATH ..."
-    sudo chmod +x "/home/${BASE_USER}/klipper-led_effect/install-led_effect.sh"
+    sudo chmod +x "/home/${BASE_USER}/klipper_led_effect/install-led_effect.sh"
     sudo ln -s "/home/${BASE_USER}/klipper_led_effect/setup.sh" "/usr/local/bin/led_effect"
 fi
 
 ## Step 6: Install systemd service
 echo_green "Installing Klipper LED-effect service ..."
-sudo /home/${BASE_USER}/klipper-led_effect/install-led_effect.sh
+sudo /home/${BASE_USER}/klipper_led_effect/install-led_effect.sh
 
 ## Finish
 echo_green "Installing Klipper LED-Effect ... DONE!"
