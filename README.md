@@ -59,7 +59,7 @@ No additional steps are required. Proceed to the next section.
 4. Access KlipperOS via your browser at:
    - [ ]( ) (TODO-avahi config)
 
-Modified from [KBG Repo](https://github.com/Low-Frequency/Klipper-Git-Backup/blob/main/README.md)
+Set up KGB - instructions modified from [Klipper-Git-Backup Repo](https://github.com/Low-Frequency/Klipper-Git-Backup/blob/main/README.md)
   Create an access token for the script to use:
 
   Navigate to `Profile > Settings > Developer settings > Personal access tokens > Fine-grained tokens`.

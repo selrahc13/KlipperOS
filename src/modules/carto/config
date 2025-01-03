@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#### CARTOGRAPHER Install Module
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022 - till today
+#### https://github.com/mainsail-crew/MainsailOS
+####
+#### This File is distributed under GPLv3
+####
+
+
+# shellcheck disable=all
+
+# CARTOGRAPHER repo
+[[ -n "$CARTOGRAPHER_REPO_SHIP" ]] || CARTOGRAPHER_REPO_SHIP="https://github.com/Cartographer3D/cartographer-klipper/.git"
+[[ -n "$CARTOGRAPHER_REPO_BRANCH" ]] || CARTOGRAPHER_REPO_BRANCH="master"
+
+# Add to $PATH ? (1: yes, 0: no)
+[[ -n "$CARTOGRAPHER_ADD_TO_PATH" ]] || CARTOGRAPHER_ADD_TO_PATH="1"
