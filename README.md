@@ -59,6 +59,32 @@ No additional steps are required. Proceed to the next section.
 4. Access KlipperOS via your browser at:
    - [ ]( ) (TODO-avahi config)
 
+Modified from [KBG Repo](https://github.com/Low-Frequency/Klipper-Git-Backup/blob/main/README.md)
+  Create an access token for the script to use:
+
+  Navigate to `Profile > Settings > Developer settings > Personal access tokens > Fine-grained tokens`.
+
+  There you'll have to create a new fine-grained access token, so the script will be able to create your repo and add the SSH key to your profile.
+
+  The following permissions are required:
+  
+  | Section                | Permission       | Setting      |
+  |------------------------|------------------|--------------|
+  | Repository Access      | All Repositories |              |
+  | Repository Permissions | Admin            | read & write |
+  | Account Permissions    | Git SSH Keys     | read & write |
+  | Account Permissions    | SSH Signing Keys | read         |
+
+  Copy the access token and save it on your Pi:
+  ```bash
+  nano ~/.secrets/gh-token
+  ```
+
+  Paste the access token, save and quit the editor (`Ctrl + x`, `y` to confirm). The hard part is done now.
+
+  
+
+
 ## What’s Included?
 
 Here’s a list of preinstalled and integrated software:
