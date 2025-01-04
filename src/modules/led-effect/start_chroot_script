@@ -45,7 +45,7 @@ fi
 
 ## Step 6: Install systemd service
 echo_green "Installing Klipper LED-effect service ..."
-sudo /home/${BASE_USER}/klipper_led_effect/install-led_effect.sh
+sudo /home/"${BASE_USER}"/klipper_led_effect/install-led_effect.sh
 
 ## Finish
 echo_green "Installing Klipper LED-Effect ... DONE!"
