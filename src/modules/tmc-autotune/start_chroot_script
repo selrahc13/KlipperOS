@@ -28,7 +28,7 @@ apt-get update --allow-releaseinfo-change
 check_install_pkgs git
 
 ## Step 3: Move to Home Dir as WorkingDirectoy
-pushd "/home/${BASE_USER}" &> /dev/null || exit 1
+pushd /home/"${BASE_USER}" &> /dev/null || exit 1
 
 ## Step 4: clone KLIPPER_TMC_AUTOTUNE repo
 echo_green "Clone KLIPPER_TMC_AUTOTUNE repository ..."
@@ -38,7 +38,7 @@ wget -O - https://raw.githubusercontent.com/andrewmcgr/klipper_tmc_autotune/main
 ## Step 5: Link install.sh in /usr/local/bin as klipper_tmc_autotune-install
 #if [[ ${KLIPPER_TMC_AUTOTUNE_ADD_TO_PATH} = "1" ]]; then
 #    echo_green "Add klipper_tmc_autotune to PATH ..."
-#    sudo ln -s "/home/${BASE_USER}/klipper_tmc_autotune/install.sh" "/usr/local/bin/klipper_tmc_autotune-install"
+#    sudo ln -s /home/"${BASE_USER}"/klipper_tmc_autotune/install.sh /usr/local/bin/klipper_tmc_autotune-install
 #fi
 
 ## Finish
