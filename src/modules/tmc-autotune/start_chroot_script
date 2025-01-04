@@ -40,7 +40,7 @@ echo_green "Clone KLIPPER_TMC_AUTOTUNE repository ..."
 #    sudo ln -s /home/"${BASE_USER}"/klipper_tmc_autotune/install.sh /usr/local/bin/klipper_tmc_autotune-install
 #fi
 
-sudo -u "${BASE_USER}" wget -O - https://raw.githubusercontent.com/andrewmcgr/klipper_tmc_autotune/main/install.sh | sudo -u "${BASE_USER} bash
+sudo -u "${BASE_USER}" wget -O - https://raw.githubusercontent.com/andrewmcgr/klipper_tmc_autotune/main/install.sh | sudo -u "${BASE_USER}" bash
 
 ## Finish
 echo_green "Installing Klipper TMC Autotune ... DONE!"
