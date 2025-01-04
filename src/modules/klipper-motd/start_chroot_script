@@ -41,12 +41,12 @@ if [[ ${KLIPPER_MOTD_ADD_TO_PATH} = "1" ]]; then
     sudo chmod +x /home/"${BASE_USER}"/klipper-motd/setup.sh
     sudo ln -s /home/"${BASE_USER}"/klipper-motd/setup.sh /usr/local/bin/motd-setup
     sudo chmod +x /home/"${BASE_USER}"/klipper-motd/motd-config
-    sudo ln -s "/home/"${BASE_USER}"/klipper-motd/motd-config /usr/local/bin/motd-config
+    sudo ln -s /home/"${BASE_USER}"/klipper-motd/motd-config /usr/local/bin/motd-config
 fi
 
 ## Step 6: Install systemd service
 echo_green "Installing klipper-motd service ..."
-sudo /home/${BASE_USER}/klipper-motd/setup.sh --install
+sudo /home/"${BASE_USER}"/klipper-motd/setup.sh --install
 
 ## Step 7: Set MOTD theme to Voron
 echo_green "Update klipper-motd to Voron theme ..."
