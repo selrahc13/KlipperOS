@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#### HAPPYHARE Install Module
+####
+#### Written by Stephan Wendel aka KwadFan <me@stephanwe.de>
+#### Copyright 2022 - till today
+#### https://github.com/mainsail-crew/MainsailOS
+####
+#### This File is distributed under GPLv3
+####
+
+
+# shellcheck disable=all
+
+# HAPPYHARE repo
+[[ -n "$HAPPYHARE_REPO_SHIP" ]] || HAPPYHARE_REPO_SHIP="https://github.com/moggieuk/Happy-Hare.git"
+[[ -n "$HAPPYHARE_REPO_BRANCH" ]] || HAPPYHARE_REPO_BRANCH="main"
+
+# Add to $PATH ? (1: yes, 0: no)
+[[ -n "$HAPPYHARE_ADD_TO_PATH" ]] || HAPPYHARE_ADD_TO_PATH="1"

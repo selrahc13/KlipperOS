@@ -112,12 +112,12 @@ Here’s a list of preinstalled and integrated software:
 - [X] Integrate KIAUH
 - [X] Integrate klippain
 - [X] Integrate klippain-shaketune
-- [ ] Integrate TMC Driver tuning into Klipper
+- [X] Integrate TMC Driver tuning into Klipper
 - [X] Integrate Klipper LED Effects
-- [ ] Integrate Cartographer3D
+- [X] Integrate Cartographer3D
 - [X] Integrate Klipper MOTD (Voron theme)
 - [ ] Integrate BTT IO2CAN support
-- [ ] Integrate KGB
+- [X] Integrate KGB
 - [ ] Integrage Happy Hare
 
 ## Bugs
