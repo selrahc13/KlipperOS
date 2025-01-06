@@ -41,11 +41,13 @@ if [[ ${KLIPPER_MOTD_ADD_TO_PATH} = "1" ]]; then
     ls -la /home/"${BASE_USER}"/klipper_led_effect
     sudo chmod +x /home/"${BASE_USER}"/klipper_led_effect/install-led_effect.sh
     sudo ln -s /home/"${BASE_USER}"/klipper_led_effect/setup.sh /usr/local/bin/led_effect
+    ## Step 6: Install systemd service
+    echo_green "Installing Klipper LED-effect service ..."
+    sudo /home/"${BASE_USER}"/klipper_led_effect/install-led_effect.sh
 fi
 
-## Step 6: Install systemd service
-echo_green "Installing Klipper LED-effect service ..."
-sudo /home/"${BASE_USER}"/klipper_led_effect/install-led_effect.sh
+
+
 
 ## Finish
 echo_green "Installing Klipper LED-Effect ... DONE!"
