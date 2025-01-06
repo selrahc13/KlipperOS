@@ -36,7 +36,7 @@ echo_green "Clone KLIPPER_LED_EFFECT repository ..."
 gitclone KLIPPER_MOTD_REPO klipper_led_effect
 
 ## Step 5: Link install.sh in /usr/local/bin as klipper_led_effect-setup
-if [[ ${KLIPPER_MOTD_ADD_TO_PATH} = "1" ]]; then
+if [[ ${KLIPPER_LED_EFFECT_ADD_TO_PATH} = "1" ]]; then
     echo_green "Add klipper_led_effect to PATH ..."
     ls -la /home/"${BASE_USER}"/klipper_led_effect
     sudo chmod +x /home/"${BASE_USER}"/klipper_led_effect/install-led_effect.sh
